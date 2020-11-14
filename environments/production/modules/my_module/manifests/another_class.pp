@@ -5,7 +5,7 @@
 # @example
 #   include my_module::another_class
 class my_module::another_class {
-  file { '/tmp/hello':
+  file { '/tmp/another':
     ensure  => 'present',
     content => 'Another Hello World',
     path    => '/tmp/hello',
