@@ -8,6 +8,6 @@ class my_module::another_class {
   file { '/tmp/another':
     ensure  => 'present',
     content => 'Another Hello World',
-    path    => '/tmp/hello',
+    path    => '/tmp/another',
   }
 }
