@@ -1,2 +1,2 @@
 ---
-my_parameters::greeting: Hola Mundo
+my_parameters::my_class::greeting: Hola Mundo
