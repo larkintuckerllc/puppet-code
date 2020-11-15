@@ -7,6 +7,6 @@
 class my_variables {
   $my_content = 'Hello Module'
 
-  import my_variables::local_variables
-  import my_variables::scoped_variables
+  include my_variables::local_variables
+  include my_variables::scoped_variables
 }
