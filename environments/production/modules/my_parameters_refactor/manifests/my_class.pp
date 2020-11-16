@@ -1,8 +1,13 @@
-# @summary A short summary of the purpose of this class
+# @summary A class using a parameterized module
 #
-# A description of what this class does
+# A class using a parameterized module
 #
 # @example
 #   include my_parameters_refactor::my_class
 class my_parameters_refactor::my_class {
+  file { '/tmp/my_parameters_refactor':
+    ensure  => 'present',
+    content => $my_parameters_refactor::greeting,
+    path    => '/tmp/my_parameters_refactor',
+  }
 }

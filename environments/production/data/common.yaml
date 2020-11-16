@@ -1,2 +1,3 @@
 ---
 my_parameters::my_class::greeting: Hola Mundo
+my_parameters_refactor::greeting: Hola Mundo
