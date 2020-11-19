@@ -6,4 +6,5 @@ node default {
   include my_facts
   include my_parameters
   include my_parameters_refactor
+  include my_files_templates
 }
